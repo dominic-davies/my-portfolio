@@ -59,11 +59,16 @@ body {
 }
 
 .section-heading {
-  margin: 100px 0;
+  margin: 80px 0;
 }
 
 .section-heading h2 {
   font-weight: 700;
+}
+
+#projects {
+  background: #f7f7f7;
+  padding: 100px;
 }
 
 .fa-js-square {
@@ -78,6 +83,9 @@ body {
   color: #72a864;
 }
 
+.about-text {
+  font-weight: 400;
+}
 /* changes to bootstrap defaults*/
 .btn-success {
   background: #01d9fc;
