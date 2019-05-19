@@ -21,6 +21,32 @@ body {
   border-bottom: 1px solid white;
 }
 
+#showcase {
+  background: url('/img/react-habr.jpeg') bottom center / cover no-repeat;
+  height: 100vh;
+}
+
+#showcase h1 {
+  font-family: 'Questrial', sans-serif;
+  /* reduce space around the showcase header (also mb-0) */
+  line-height: 1;
+}
+
+#showcase .btn {
+  font-size: 1.2rem;
+  border-radius: 1.2rem;
+}
+
+/* changes to bootstrap defaults*/
+.btn-success {
+  background: #01d9fc;
+  border: none;
+}
+
+.btn-success:hover {
+  background: #01fcb8;
+  border: none;
+}
 @media (max-width: 768px) {
   .navbar {
     background: #1f1f1f;
