@@ -20,7 +20,7 @@ body {
 
 .navbar .nav-item {
   font-size: 1.4rem;
-  font-weight: 400;
+  font-weight: 200;
 }
 
 .navbar .nav-link:hover {
@@ -29,7 +29,7 @@ body {
 }
 
 #showcase {
-  background: url('/img/react-habr.jpeg') bottom center / cover no-repeat;
+  background: url('/img/Interview-React-2.jpg') bottom center / cover no-repeat;
   height: 100vh;
   position: relative;
 }
@@ -58,6 +58,26 @@ body {
   border-radius: 1.2rem;
 }
 
+.section-heading {
+  margin: 100px 0;
+}
+
+.section-heading h2 {
+  font-weight: 700;
+}
+
+.fa-js-square {
+  color: yellow;
+}
+
+.fa-react {
+  color: #52aadd;
+}
+
+.fa-node {
+  color: #72a864;
+}
+
 /* changes to bootstrap defaults*/
 .btn-success {
   background: #01d9fc;
@@ -65,7 +85,7 @@ body {
 }
 
 .btn-success:hover {
-  background: #01fcb8;
+  background: #52aadd;
   border: none;
 }
 @media (max-width: 768px) {
