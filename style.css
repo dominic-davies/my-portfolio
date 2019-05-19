@@ -3,8 +3,6 @@ font-family: 'Questrial', sans-serif; */
 
 body {
   font-family: 'Raleway', sans-serif;
-  /* for testing */
-  background: pink;
 }
 
 /* put navbar ontop of showcase image */
@@ -13,6 +11,7 @@ body {
   top: 0;
   right: 0;
   left: 0;
+  z-index: 5;
 }
 
 .navbar .navbar-brand h3 {
@@ -21,7 +20,7 @@ body {
 
 .navbar .nav-item {
   font-size: 1.4rem;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 .navbar .nav-link:hover {
@@ -32,8 +31,22 @@ body {
 #showcase {
   background: url('/img/react-habr.jpeg') bottom center / cover no-repeat;
   height: 100vh;
+  position: relative;
 }
 
+#showcase #header {
+  z-index: 4;
+}
+
+#showcase #overlay {
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
 #showcase h1 {
   font-family: 'Questrial', sans-serif;
   /* reduce space around the showcase header (also mb-0) */
