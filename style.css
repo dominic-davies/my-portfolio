@@ -7,6 +7,14 @@ body {
   background: pink;
 }
 
+/* put navbar ontop of showcase image */
+.navbar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
 .navbar .navbar-brand h3 {
   font-weight: 100;
 }
